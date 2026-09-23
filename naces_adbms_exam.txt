@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE fact_sales (
+	invoice_id INT PRIMARY KEY,   
+ 	branch_id INT,     
+ 	customer_id INT, 
+ 	product_id INT,  
+ 	quantity INT, 
+ 	date DATE,
+ 	time TIME,
+ 	payment INT,
+ 	rating INT);
+
+CREATE TABLE dim_product (
+	product_id primar 
+	product_name 
+	product_line
+	price 
